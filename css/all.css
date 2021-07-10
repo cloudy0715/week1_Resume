@@ -101,12 +101,12 @@ hr{
 	padding-bottom: 48px;
 }
 
-.profile .profile-item, .education .education-item li{
+.profile .profile-list, .education .education-list li{
 	margin-bottom: 24px;
 }
 
-.profile .profile-item li, 
-.education .education-item li{
+.profile .profile-list li, 
+.education .education-list li{
 	font: normal normal normal 24px/36px Noto Sans;
 }
 
@@ -138,14 +138,14 @@ hr{
 	justify-content: center;
 }
 
-.skills .skills-item{
+.skills .skills-list{
 	padding-left:24px;
 	border-left: 1px solid #ffffff50;
 	max-width: 220px;
     margin: 0 auto;
 }
 
-.skills .skills-item li{
+.skills .skills-list li{
 	font: normal normal 300 24px/36px Roboto;
 	color: #ffffff90;
 	margin-bottom: 16px;
@@ -155,7 +155,7 @@ hr{
 	margin-bottom: 24px;
 }
 
-.experience .experience-item{
+.experience .experience-list{
 	margin-top: 16px;
 	border-left: 1px solid #96A9C4;
     padding-left: 24px;
@@ -163,7 +163,7 @@ hr{
     max-width: 642px;
 }
 
-.experience .experience-item li{
+.experience .experience-list li{
 	margin-bottom: 24px;
 }
 
@@ -192,11 +192,11 @@ hr{
 	text-align: center;
 }
 
-.contact .contact-item li{
+.contact .contact-list li{
 	margin-bottom: 15px;
 }
 
-.contact .contact-content .contact-item li, .contact a{
+.contact .contact-content .contact-list li, .contact a{
 	font: normal normal 300 24px/36px Roboto;
 	color: #ffffff90;
 }
@@ -228,7 +228,7 @@ hr{
 		margin-left: 8px;
 		font-size: 22px;
 	}
-	.experience .experience-item{
+	.experience .experience-list{
 		margin-top: 16px;
 		border-left: 0px;
 		padding-left: 0px;
