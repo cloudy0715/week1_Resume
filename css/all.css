@@ -91,20 +91,11 @@ span{
 	font-weight: 500;
 }
 
-/* .profile .title, .education .title, .experience .title{
-	font-size: 32px;
-	line-height: 43px;
-	border-bottom: 1px solid gray;
-	padding-bottom: 8px;
-	margin-bottom: 16px;
-} */
-
 .title{
 	font-size: 32px;
 	line-height: 43px;
 	border-bottom: 1px solid #000;
 	padding-bottom: 8px;
-	/* margin-bottom: 16px; */
 	margin-bottom: 24px;
 	vertical-align: middle;
 }
@@ -116,11 +107,6 @@ span{
 .profile .profile-list, .education .education-list li{
 	margin-bottom: 24px;
 }
-
-/* .profile .profile-list li, 
-.education .education-list li{
-	font: normal normal normal 24px/36px Noto Sans;
-} */
 
 .skills, .contact{
 	background-color: #415165;
@@ -162,12 +148,7 @@ span{
 	margin-bottom: 16px;
 }
 
-/* .experience .title{
-	margin-bottom: 24px;
-} */
-
  .experience-list{
-	/* margin-top: 16px; */
 	border-left: 1px solid #96A9C4;
     padding-left: 24px;
     margin-left: 24px;
@@ -203,11 +184,6 @@ span{
 .contact .contact-list li{
 	margin-bottom: 15px;
 }
-
-/* .contact .contact-content .contact-list li, .contact a{
-	font: normal normal 300 24px/36px Roboto;
-	color: #ffffff90;
-} */
 
 .contact a{
 	text-decoration: none;
