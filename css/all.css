@@ -48,7 +48,8 @@ table {
 
 img{
     max-width: 100%;
-    height: auto;
+	height: auto;
+	display: block;
 }
 
 hr{
@@ -57,19 +58,23 @@ hr{
 }
 /* End */
 
+body{
+	font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,"Helvetica Neue", Arial, sans-serif;
+	font-size: 24px;
+	line-height: 1.5;
+}
+
 .container{
     max-width: 1200px;
 	margin: 0 auto;
 }
 
-.name h1{
-    font-size: 80px;
-	font: normal normal normal 80px/106px Roboto;
-}
 
 .name{
 	border-bottom: 2px solid #000;
 	margin-top: 37px;
+	font-size: 80px;
+	line-height: 106px;
 }
 
 .profile{
@@ -80,21 +85,28 @@ hr{
 	margin: 48px 0;
 }
 
-.title span{
-	font-size: 24px;
-	font-family: Roboto;
+span{
 	color: #A00404;
 	margin-left: 16px;
-	line-height: 32px;
-	display: inline-block;
-	vertical-align: text-bottom;
+	font-weight: 500;
 }
 
-.profile .title, .education .title, .experience .title{
-	font: normal normal 600 32px/43px Noto Sans;
+/* .profile .title, .education .title, .experience .title{
+	font-size: 32px;
+	line-height: 43px;
 	border-bottom: 1px solid gray;
 	padding-bottom: 8px;
 	margin-bottom: 16px;
+} */
+
+.title{
+	font-size: 32px;
+	line-height: 43px;
+	border-bottom: 1px solid #000;
+	padding-bottom: 8px;
+	/* margin-bottom: 16px; */
+	margin-bottom: 24px;
+	vertical-align: middle;
 }
 
 .profile, .education {
@@ -105,26 +117,27 @@ hr{
 	margin-bottom: 24px;
 }
 
-.profile .profile-list li, 
+/* .profile .profile-list li, 
 .education .education-list li{
 	font: normal normal normal 24px/36px Noto Sans;
-}
+} */
 
 .skills, .contact{
 	background-color: #415165;
-    padding:24px 0 36px 0;
-    color:white;
+    padding: 24px 0 36px 0;
+    color: white;
 }
 
 .skills{
 	margin-bottom: 72px;
+	color: #ffffff;
 }
 
 .skills .title, .contact .title{
-	font: normal normal 600 32px/45px PingFang TC;
+	font-size: 32px;
+	font-weight: 500;
 	text-align: center;
-	border-bottom: 1px solid #ffffff50;
-	color: #ffffff;
+	border-bottom: 1px solid #ffffff;
 	margin-bottom: 40px;
 	padding-bottom: 8px;
 }
@@ -140,48 +153,43 @@ hr{
 
 .skills .skills-list{
 	padding-left:24px;
-	border-left: 1px solid #ffffff50;
+	border-left: 1px solid #ffffff;
 	max-width: 220px;
     margin: 0 auto;
 }
 
 .skills .skills-list li{
-	font: normal normal 300 24px/36px Roboto;
-	color: #ffffff90;
 	margin-bottom: 16px;
 }
 
-.experience .title{
+/* .experience .title{
 	margin-bottom: 24px;
-}
+} */
 
-.experience .experience-list{
-	margin-top: 16px;
+ .experience-list{
+	/* margin-top: 16px; */
 	border-left: 1px solid #96A9C4;
     padding-left: 24px;
     margin-left: 24px;
     max-width: 642px;
 }
 
-.experience .experience-list li{
+.experience-list li{
 	margin-bottom: 24px;
 }
 
-.experience img{
+.experience-list img{
 	width: 90px;
 	height: 90px;
 	margin-bottom: 8px;
 }
 
-.experience .experience-item-title{
-	font: normal normal bold 24px/36px Noto Sans;
-	margin-bottom:8px;
-	color: #000;
+.experience-list .experience-item-title{
+	margin-bottom: 8px;
 }
 
-.experience p{
-	font: normal normal bold 20px/30px Noto Sans;
-	color: #00000070;
+.experience-list p{
+	font-size: 20px;
 }
 
 .contact{
@@ -196,18 +204,24 @@ hr{
 	margin-bottom: 15px;
 }
 
-.contact .contact-content .contact-list li, .contact a{
+/* .contact .contact-content .contact-list li, .contact a{
 	font: normal normal 300 24px/36px Roboto;
 	color: #ffffff90;
-}
+} */
 
 .contact a{
 	text-decoration: none;
+	color: #ffffff;
 }
 
 .contact a:hover{
-	color:#ffffff;
- }
+	opacity: 0.8;
+}
+
+.social-media {
+	display: flex;
+	justify-content: center;
+}
 
 .social-media img{
 	padding: 0 12px;
